@@ -378,6 +378,8 @@ export interface ApiPageContentPageContent extends Schema.CollectionType {
     description: Attribute.Text;
     video_url: Attribute.Text;
     FAQ: Attribute.Component<'faq.faq', true>;
+    manual_link: Attribute.Text;
+    faq_title: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

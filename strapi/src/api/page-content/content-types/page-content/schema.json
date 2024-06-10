@@ -25,6 +25,12 @@
       "type": "component",
       "repeatable": true,
       "component": "faq.faq"
+    },
+    "manual_link": {
+      "type": "text"
+    },
+    "faq_title": {
+      "type": "text"
     }
   }
 }
