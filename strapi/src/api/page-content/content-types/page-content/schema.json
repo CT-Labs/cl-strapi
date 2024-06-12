@@ -31,6 +31,11 @@
     },
     "faq_title": {
       "type": "text"
+    },
+    "page_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-info.page-infgo"
     }
   }
 }

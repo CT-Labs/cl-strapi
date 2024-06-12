@@ -12,10 +12,23 @@ export interface FaqFaq extends Schema.Component {
   };
 }
 
+export interface PageInfoPageInfgo extends Schema.Component {
+  collectionName: 'components_page_info_page_infgos';
+  info: {
+    displayName: 'PageInfgo';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.Text;
+    description: Attribute.String;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'faq.faq': FaqFaq;
+      'page-info.page-infgo': PageInfoPageInfgo;
     }
   }
 }

@@ -411,6 +411,7 @@ export interface ApiPageContentPageContent extends Schema.CollectionType {
     FAQ: Attribute.Component<'faq.faq', true>;
     manual_link: Attribute.Text;
     faq_title: Attribute.Text;
+    page_info: Attribute.Component<'page-info.page-infgo', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
