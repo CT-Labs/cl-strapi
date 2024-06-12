@@ -20,7 +20,7 @@ export interface PageInfoPageInfgo extends Schema.Component {
   };
   attributes: {
     title: Attribute.Text;
-    description: Attribute.String;
+    description: Attribute.Text;
   };
 }
 
